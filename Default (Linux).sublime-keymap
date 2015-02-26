@@ -1,4 +1,4 @@
 [
-  { "keys": ["ctrl+\\"], "command": "toggle_group" },
-  { "keys": ["shift+ctrl+\\"], "command": "toggle_move_group" }
+  { "keys": ["ctrl+\\"], "command": "cycle_group" },
+  { "keys": ["shift+ctrl+\\"], "command": "cycle_move_group" }
 ]
