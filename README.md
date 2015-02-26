@@ -15,8 +15,8 @@ git clone git@github.com:daytonn/CycleGroup.git ~/Library/Application\ Support/S
 Keybindings
 -----------
 
-`super+\` (`⌘+\`) will cycle the focused group (a group is a division of tabs in Sublime). For exampe if you have two groups, one on the left, and one on the right, and the cursor is in a file in the first group. Pressing `super+\` will focus the open file in the second group.
+`ctrl+\` (`⌃+\`) will cycle the focused group (a group is a division of tabs in Sublime). For exampe if you have two groups, one on the left, and one on the right, and the cursor is in a file in the first group. Pressing `ctrl+\` will focus the open file in the second group.
 
-`shift+super+\` (`⇧+⌘+\`) will move the currently focused file, to the next group. For example if you have two groups, one on the left, and one on the right, and the cursor is in a file in the first group. Pressing `shift+super+\` will move the file to then second group.
+`shift+ctrl+\` (`⇧+⌃+\`) will move the currently focused file, to the next group. For example if you have two groups, one on the left, and one on the right, and the cursor is in a file in the first group. Pressing `shift+ctrl+\` will move the file to then second group.
 
 ![](https://raw.githubusercontent.com/daytonn/CycleGroup/master/cycle-group.gif)
