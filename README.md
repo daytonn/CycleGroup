@@ -9,7 +9,7 @@ Installation
 Install with Package Control or clone the repository:
 
 ```sh
-git clone git@github.com:daytonn/CycleGroup.git ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/CycleGroup
+git clone git@github.com:daytonn/CycleGroup.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/CycleGroup
 ```
 
 Keybindings
