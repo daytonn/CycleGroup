@@ -1,10 +1,22 @@
-SublimeToggleGroup
+CycleGroup
 ==================
 
-This plugin allows you to toggle the currently focused group and easily swap open files between groups without having to use the target group number.
+Have you ever just wanted a hotkey to cycle the focus from one group to the next? How about simply moving a file to the opposite group? Well, now you can with CycleGroup.
 
-For example, if you have the screen split into 2 groups and you are focused on the left group (1) and you wish to focus the right group (2), you simply hit the toggle command `super+\` and the focus will toggle to the currently unfocused group.
+Installation
+------------
 
-Toggling open files between groups work in the same way. To move a file from one group to another, simply hold add shift to the previous command: `super+shift+\`.
+Install with Package Control or clone the repository:
 
-Now you no longer have to think about where you want to focus or move a file, you simply put it on the opposite group. 
+```sh
+git clone git@github.com:daytonn/CycleGroup.git ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/CycleGroup
+```
+
+Keybindings
+-----------
+
+`super+\` (`⌘+\`) will cycle the focused group (a group is a division of tabs in Sublime). For exampe if you have two groups, one on the left, and one on the right, and the cursor is in a file in the first group. Pressing `super+\` will focus the open file in the second group.
+
+`shift+super+\` (`⇧+⌘+\`) will move the currently focused file, to the next group. For example if you have two groups, one on the left, and one on the right, and the cursor is in a file in the first group. Pressing `shift+super+\` will move the file to then second group.
+
+![](https://raw.githubusercontent.com/daytonn/CycleGroup/master/cycle-group.gif)
